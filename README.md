@@ -8,7 +8,7 @@ Explicações sobre projeto e objetivos:
 - Automação de testes utilizando Cucumber e POM (Page Object Model)
 - Geração de massa de dados aleatórios utilizando Faker.JS
 - Geração de reports automatizados utilizando Cucumber HTML Report
-- Screenshots são salvos automaticamentes SE houver falha na execução dos testes em cypress>screenshots
+- Screenshots são salvos automaticamentes SE houver falha na execução dos testes em cypress>screenshots (na execução por CLI)
 - Gravação automatica salva em cypress>videos
 
 ## 🔴 Pré-requisitos
@@ -39,7 +39,7 @@ Explicações sobre projeto e objetivos:
  4. Execute o teste .feature disponível
  
 ### Execução via CLI e geração de report na pasta reports>index.html
-1. Execução de testes via CLI e geração de json (funciona em Headless Mode): 
+1. Execução de testes via CLI, gera JSON para report e exibe resultados (funciona em Headless Mode): 
     ```sh 
    npm run cypress:execution  
    ```
