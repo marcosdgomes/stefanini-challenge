@@ -2,10 +2,11 @@
 
 ##### Automação utilizando Cypress 11 seguindo abordagem BDD com Cucumber e padrão POM (Page Object Model)
 
-Explicações sobre projeto e objetivos (instalação, execução de testes no browser e CLI, geração de reports automatizados e explicação sobre código e abordagens):
+## Explicações sobre projeto e objetivos 
+- instalação, execução de testes no browser e CLI, geração de reports automatizados e explicação sobre código e abordagens
+Clique na imagem para assistir o vídeo:[![Assista o vídeo no Youtube](https://user-images.githubusercontent.com/40446104/203107589-d0171fa6-f4a8-45e7-9a38-770cbc4c1bc7.png)](https://youtu.be/cVNtG190ZwI)
 
-Clique na imagem para assistir o vídeo:[![Assista o vídeo no Youtube](https://user-images.githubusercontent.com/40446104/203106029-02c37380-741d-45aa-b534-2bbef82fc3bd.png)](https://youtu.be/cVNtG190ZwI)
-
+![image]()
 
 ## 🔧 Funcionalidades
 - Automação de testes utilizando Cucumber e POM (Page Object Model)
