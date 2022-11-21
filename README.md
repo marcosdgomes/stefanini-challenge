@@ -2,7 +2,10 @@
 
 ##### Automação utilizando Cypress 11 seguindo abordagem BDD com Cucumber e padrão POM (Page Object Model)
 
-Explicações sobre projeto e objetivos:
+Explicações sobre projeto e objetivos (instalação, execução de testes no browser e CLI, geração de reports automatizados e explicação sobre código e abordagens):
+
+Clique na imagem para assistir o vídeo:[![Assista o vídeo no Youtube](https://user-images.githubusercontent.com/40446104/203106029-02c37380-741d-45aa-b534-2bbef82fc3bd.png)](https://youtu.be/cVNtG190ZwI)
+
 
 ## 🔧 Funcionalidades
 - Automação de testes utilizando Cucumber e POM (Page Object Model)
@@ -14,7 +17,6 @@ Explicações sobre projeto e objetivos:
 ## 🔴 Pré-requisitos
 
 1. Node JS 14.19.0(ou superior)
-2. Opcional: Java 8 para execução do Allure Reporter
 
 ## 🚀 Instale o projeto
 
