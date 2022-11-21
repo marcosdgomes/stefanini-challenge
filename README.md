@@ -38,7 +38,7 @@ Explicações sobre projeto e objetivos:
  3. Selecione o navegador desejado e clique em "Start E2E Testing {browser}"
  4. Execute o teste .feature disponível
  
-#### Execução via CLI e geração de report na pasta reports>index.html
+### Execução via CLI e geração de report na pasta reports>index.html
 1. Execução de testes via CLI e geração de json (funciona em Headless Mode): 
     ```sh 
    npm run cypress:execution  
