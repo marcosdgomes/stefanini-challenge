@@ -1,6 +1,9 @@
-# Desafio Stefanini - Automação utilizando Cypress 11, segunido abordagem BDD e padrão Page Object Model
+# Desafio Stefanini - Automação com Cypress 11, BDD e POM
 
-## Cypress 11 com BDD e Cucumber
+## Automação utilizando Cypress 11 seguindo abordagem BDD com Cucumber e padrão POM (Page Object Model)
+
+Explicações sobre projeto e objetivos:
+
 
 Integrado com:
 
@@ -9,8 +12,6 @@ Integrado com:
 - [x] Faker.js https://github.com/faker-js/faker (gerador de dados aleatórios)
 - [x] Cucumber HTML reporter https://www.npmjs.com/package/multiple-cucumber-html-reporter
 - [x] Allure reporter https://github.com/Shelex/cypress-allure-plugin
-
-(+ bundlers: https://github.com/badeball/cypress-cucumber-preprocessor/tree/master/examples)
 
 - ## 💻 Pré-requisitos
 
@@ -29,17 +30,19 @@ Integrado com:
    ```
 
 ## Execute o projeto:
-
-1. Execução via CLI e geração de json (funciona em Headless Mode): 
+Execução via Browser
+1. Execução via Browser
+   ```sh 
+   npx cypress open
+   ```
+Execução via CLI
+1. Execução de testes via CLI e geração de json (funciona em Headless Mode): 
     ```sh 
    npm run cypress:execution  
-   ``````sh 
+   ```
+   ```sh 
 2. Atualiza report HTML na pasta reports>index.html
-    ```sh 
-2.
-3. Allure Report: 
-   1. npm run cypress:execution-allure
-   2. npm run allure:report
-   3. allure open
+    ```
+    
    
    
