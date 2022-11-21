@@ -1,0 +1,550 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 3,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "usuário visita a página inicial",
+            "result": {
+              "duration": 2066000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "cadastro-de-usuários;acessa-site-e-valida-conteúdo-carregado",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Acessa site e valida conteúdo carregado",
+        "steps": [
+          {
+            "keyword": "Then ",
+            "line": 6,
+            "name": "página deve ser carregada corretamente e titúlo deve ser igual 'Cadastro de usuários'",
+            "result": {
+              "duration": 86000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 3,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "usuário visita a página inicial",
+            "result": {
+              "duration": 338000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "cadastro-de-usuários;usuário-não-insere-'nome'-completo-e-tenta-criar-cadastro",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "usuário não insere 'nome' completo e tenta criar cadastro",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 9,
+            "name": "usuário não insere Nome completo, mas insere 'Email' e 'Senha' e clica em 'Cadastrar'",
+            "result": {
+              "duration": 1303000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 10,
+            "name": "campo Nome deve ser validado exibindo a mensagem 'O campo Nome é obrigatório.'",
+            "result": {
+              "duration": 42000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 3,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "usuário visita a página inicial",
+            "result": {
+              "duration": 474000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "cadastro-de-usuários;usuário-não-insere-'email'-e-tenta-criar-cadastro",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "usuário não insere 'email' e tenta criar cadastro",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 13,
+            "name": "usuário não insere Email, mas insere 'Nome' e 'Senha' e clica em 'Cadastrar'",
+            "result": {
+              "duration": 1401000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 14,
+            "name": "campo Email deve ser validado exibindo a mensagem 'O campo E-mail é obrigatório.'",
+            "result": {
+              "duration": 59000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 3,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "usuário visita a página inicial",
+            "result": {
+              "duration": 372000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "cadastro-de-usuários;usuário-não-insere-'senha'-e-tenta-criar-cadastro",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "usuário não insere 'senha' e tenta criar cadastro",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 17,
+            "name": "usuário não insere senha, mas insere 'Nome' e 'Email'",
+            "result": {
+              "duration": 1300000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 18,
+            "name": "campo Senha deve ser validado exibindo a mensagem 'O campo Senha é obrigatório.'",
+            "result": {
+              "duration": 30000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 3,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "usuário visita a página inicial",
+            "result": {
+              "duration": 355000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "cadastro-de-usuários;usuário-não-preenche-nenhum-campo-e-tenta-criar-cadastro",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "usuário não preenche nenhum campo e tenta criar cadastro",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 21,
+            "name": "usuário não preenche nenhum dos campos e clica em 'Cadastrar'",
+            "result": {
+              "duration": 159000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 22,
+            "name": "validação deve ser exibida para todos os campos não preenchidos 'O campo Nome é obrigatório, O campo Email é obrigatório, O campo Senha é obrigatório'",
+            "result": {
+              "duration": 58000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 3,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "usuário visita a página inicial",
+            "result": {
+              "duration": 328000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "cadastro-de-usuários;usuário-preenche-com-'nome'-incompleto-e-tenta-criar-cadastro",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "usuário preenche com 'nome' incompleto e tenta criar cadastro",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 25,
+            "name": "usuário preenche com Nome incompleto, mas preenche 'Email' e 'Senha' corretamente",
+            "result": {
+              "duration": 1623000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 26,
+            "name": "campo deve ser validado com a mensagem 'Por favor, insira um nome completo'",
+            "result": {
+              "duration": 28000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 3,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "usuário visita a página inicial",
+            "result": {
+              "duration": 493000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "cadastro-de-usuários;usuário-preenche-com-'email'-inválido-e-tenta-criar-cadastro",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "usuário preenche com 'email' inválido e tenta criar cadastro",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 29,
+            "name": "usuário preenche campo com 'Email' inválido, mas preenche 'Nome' e 'Senha' corretamente",
+            "result": {
+              "duration": 1475000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 30,
+            "name": "campo deve ser validado com a mensagem 'Por favor, insira um e-mail válido'",
+            "result": {
+              "duration": 20000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 3,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "usuário visita a página inicial",
+            "result": {
+              "duration": 327000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "cadastro-de-usuários;usuário-preenche-'senha'-com-menos-de-8-caracteres--e-tenta-criar-cadastro",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "usuário preenche 'senha' com menos de 8 caracteres  e tenta criar cadastro",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 33,
+            "name": "usuário preenche com senha menor que 8 caracteres, mas preenche 'Nome' e 'Email' corretamente",
+            "result": {
+              "duration": 1427000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 34,
+            "name": "campo deve ser validado com a mensagem 'A senha deve conter ao menos 8 caracteres'",
+            "result": {
+              "duration": 24000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 3,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "usuário visita a página inicial",
+            "result": {
+              "duration": 365000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "cadastro-de-usuários;usuário-preenche-todos-os-campos-corretamente-e-realiza-cadastro",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "usuário preenche todos os campos corretamente e realiza cadastro",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 36,
+            "name": "usuário preenche os campos 'Nome', 'Email' e 'Senha' e clica em 'Cadastrar'",
+            "result": {
+              "duration": 1615000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 37,
+            "name": "registro do usuário deve ser exibido abaixo do formulário",
+            "result": {
+              "duration": 18000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 3,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "usuário visita a página inicial",
+            "result": {
+              "duration": 332000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "cadastro-de-usuários;usuário-exclui-registro-cadastrado",
+        "keyword": "Scenario",
+        "line": 39,
+        "name": "usuário exclui registro cadastrado",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 40,
+            "name": "usuário clica em 'Excluir' ao lado do registro criado",
+            "result": {
+              "duration": 1813000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 41,
+            "name": "registro do usuário deixa de ser exibido",
+            "result": {
+              "duration": 11000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "cadastro-de-usuários",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Cadastro de usuários",
+    "uri": "cypress\\e2e\\features\\register.feature"
+  }
+]
