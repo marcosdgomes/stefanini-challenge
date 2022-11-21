@@ -56,7 +56,6 @@ Integrado com:
 - [x] Cypress preprocessor https://github.com/bahmutov/cypress-esbuild-preprocessor (preprocessor build)
 - [x] Faker.js https://github.com/faker-js/faker (geração de dados aleatórios)
 - [x] Cucumber HTML reporter https://www.npmjs.com/package/multiple-cucumber-html-reporter
-- [x] Allure reporter https://github.com/Shelex/cypress-allure-plugin
     
  
    
