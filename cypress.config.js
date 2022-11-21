@@ -24,9 +24,7 @@ module.exports = defineConfig({
   projectId: 'sx11z2',
   
   e2e: {
-    setupNodeEvents(on, config) {
-      require('cypress-mochawesome-reporter/plugin')(on);
-    },
+    setupNodeEvents,
     specPattern: "cypress/e2e/features/*.feature",
     baseUrl: "http://prova.stefanini-jgr.com.br/teste/qa",
     reporter: "cypress-mochawesome-reporter",
