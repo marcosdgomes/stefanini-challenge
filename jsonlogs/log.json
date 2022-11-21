@@ -13,7 +13,7 @@
             "line": 4,
             "name": "usuário visita a página inicial",
             "result": {
-              "duration": 2018000000,
+              "duration": 2197000000,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
             "line": 6,
             "name": "página deve ser carregada corretamente e titúlo deve ser igual 'Cadastro de usuários'",
             "result": {
-              "duration": 58000000,
+              "duration": 59000000,
               "status": "passed"
             },
             "match": {
@@ -56,7 +56,7 @@
             "line": 4,
             "name": "usuário visita a página inicial",
             "result": {
-              "duration": 303000000,
+              "duration": 364000000,
               "status": "passed"
             },
             "match": {
@@ -78,7 +78,7 @@
             "line": 9,
             "name": "usuário não insere Nome completo, mas insere 'Email' e 'Senha' e clica em 'Cadastrar'",
             "result": {
-              "duration": 1222000000,
+              "duration": 1114000000,
               "status": "passed"
             },
             "match": {
@@ -90,7 +90,7 @@
             "line": 10,
             "name": "campo Nome deve ser validado exibindo a mensagem 'O campo Nome é obrigatório.'",
             "result": {
-              "duration": 67000000,
+              "duration": 41000000,
               "status": "passed"
             },
             "match": {
@@ -111,7 +111,7 @@
             "line": 4,
             "name": "usuário visita a página inicial",
             "result": {
-              "duration": 370000000,
+              "duration": 346000000,
               "status": "passed"
             },
             "match": {
@@ -133,7 +133,7 @@
             "line": 13,
             "name": "usuário não insere Email, mas insere 'Nome' e 'Senha' e clica em 'Cadastrar'",
             "result": {
-              "duration": 1275000000,
+              "duration": 1136000000,
               "status": "passed"
             },
             "match": {
@@ -145,7 +145,7 @@
             "line": 14,
             "name": "campo Email deve ser validado exibindo a mensagem 'O campo E-mail é obrigatório.'",
             "result": {
-              "duration": 56000000,
+              "duration": 32000000,
               "status": "passed"
             },
             "match": {
@@ -166,7 +166,7 @@
             "line": 4,
             "name": "usuário visita a página inicial",
             "result": {
-              "duration": 340000000,
+              "duration": 396000000,
               "status": "passed"
             },
             "match": {
@@ -188,7 +188,7 @@
             "line": 17,
             "name": "usuário não insere senha, mas insere 'Nome' e 'Email'",
             "result": {
-              "duration": 1294000000,
+              "duration": 1036000000,
               "status": "passed"
             },
             "match": {
@@ -200,7 +200,7 @@
             "line": 18,
             "name": "campo Senha deve ser validado exibindo a mensagem 'O campo Senha é obrigatório.'",
             "result": {
-              "duration": 28000000,
+              "duration": 32000000,
               "status": "passed"
             },
             "match": {
@@ -221,7 +221,7 @@
             "line": 4,
             "name": "usuário visita a página inicial",
             "result": {
-              "duration": 552000000,
+              "duration": 475000000,
               "status": "passed"
             },
             "match": {
@@ -243,7 +243,7 @@
             "line": 21,
             "name": "usuário não preenche nenhum dos campos e clica em 'Cadastrar'",
             "result": {
-              "duration": 161000000,
+              "duration": 151000000,
               "status": "passed"
             },
             "match": {
@@ -255,7 +255,7 @@
             "line": 22,
             "name": "validação deve ser exibida para todos os campos não preenchidos 'O campo Nome é obrigatório, O campo Email é obrigatório, O campo Senha é obrigatório'",
             "result": {
-              "duration": 61000000,
+              "duration": 69000000,
               "status": "passed"
             },
             "match": {
@@ -276,7 +276,7 @@
             "line": 4,
             "name": "usuário visita a página inicial",
             "result": {
-              "duration": 339000000,
+              "duration": 329000000,
               "status": "passed"
             },
             "match": {
@@ -298,7 +298,7 @@
             "line": 25,
             "name": "usuário preenche com Nome incompleto, mas preenche 'Email' e 'Senha' corretamente",
             "result": {
-              "duration": 1380000000,
+              "duration": 1431000000,
               "status": "passed"
             },
             "match": {
@@ -310,7 +310,7 @@
             "line": 26,
             "name": "campo deve ser validado com a mensagem 'Por favor, insira um nome completo'",
             "result": {
-              "duration": 26000000,
+              "duration": 32000000,
               "status": "passed"
             },
             "match": {
@@ -331,7 +331,7 @@
             "line": 4,
             "name": "usuário visita a página inicial",
             "result": {
-              "duration": 314000000,
+              "duration": 319000000,
               "status": "passed"
             },
             "match": {
@@ -353,7 +353,7 @@
             "line": 29,
             "name": "usuário preenche campo com 'Email' inválido, mas preenche 'Nome' e 'Senha' corretamente",
             "result": {
-              "duration": 1253000000,
+              "duration": 1637000000,
               "status": "passed"
             },
             "match": {
@@ -365,7 +365,7 @@
             "line": 30,
             "name": "campo deve ser validado com a mensagem 'Por favor, insira um e-mail válido'",
             "result": {
-              "duration": 21000000,
+              "duration": 66000000,
               "status": "passed"
             },
             "match": {
@@ -386,7 +386,7 @@
             "line": 4,
             "name": "usuário visita a página inicial",
             "result": {
-              "duration": 464000000,
+              "duration": 338000000,
               "status": "passed"
             },
             "match": {
@@ -408,7 +408,7 @@
             "line": 33,
             "name": "usuário preenche com senha menor que 8 caracteres, mas preenche 'Nome' e 'Email' corretamente",
             "result": {
-              "duration": 1335000000,
+              "duration": 1175000000,
               "status": "passed"
             },
             "match": {
@@ -419,6 +419,61 @@
             "keyword": "Then ",
             "line": 34,
             "name": "campo deve ser validado com a mensagem 'A senha deve conter ao menos 8 caracteres'",
+            "result": {
+              "duration": 20000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 3,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "usuário visita a página inicial",
+            "result": {
+              "duration": 312000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "cadastro-de-usuários;usuário-preenche-todos-os-campos-corretamente-e-realiza-cadastro",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "usuário preenche todos os campos corretamente e realiza cadastro",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 36,
+            "name": "usuário preenche os campos 'Nome', 'Email' e 'Senha' e clica em 'Cadastrar'",
+            "result": {
+              "duration": 1320000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 37,
+            "name": "registro do usuário deve ser exibido abaixo do formulário",
             "result": {
               "duration": 21000000,
               "status": "passed"
@@ -441,62 +496,7 @@
             "line": 4,
             "name": "usuário visita a página inicial",
             "result": {
-              "duration": 373000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "not available:0"
-            }
-          }
-        ],
-        "type": "background"
-      },
-      {
-        "description": "",
-        "id": "cadastro-de-usuários;usuário-preenche-todos-os-campos-corretamente-e-realiza-cadastro",
-        "keyword": "Scenario",
-        "line": 35,
-        "name": "usuário preenche todos os campos corretamente e realiza cadastro",
-        "steps": [
-          {
-            "keyword": "When ",
-            "line": 36,
-            "name": "usuário preenche os campos 'Nome', 'Email' e 'Senha' e clica em 'Cadastrar'",
-            "result": {
-              "duration": 1545000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "not available:0"
-            }
-          },
-          {
-            "keyword": "Then ",
-            "line": 37,
-            "name": "registro do usuário deve ser exibido abaixo do formulário",
-            "result": {
-              "duration": 16000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "not available:0"
-            }
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "keyword": "Background",
-        "line": 3,
-        "name": "",
-        "steps": [
-          {
-            "keyword": "Given ",
-            "line": 4,
-            "name": "usuário visita a página inicial",
-            "result": {
-              "duration": 326000000,
+              "duration": 443000000,
               "status": "passed"
             },
             "match": {
@@ -518,7 +518,7 @@
             "line": 40,
             "name": "usuário clica em 'Excluir' ao lado do registro criado",
             "result": {
-              "duration": 1606000000,
+              "duration": 1443000000,
               "status": "passed"
             },
             "match": {
@@ -530,7 +530,7 @@
             "line": 41,
             "name": "registro do usuário deixa de ser exibido",
             "result": {
-              "duration": 34000000,
+              "duration": 9000000,
               "status": "passed"
             },
             "match": {
