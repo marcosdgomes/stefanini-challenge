@@ -1,6 +1,6 @@
 # Desafio Stefanini - Automação com Cypress 11, BDD e POM
 
-##### Automação utilizando Cypress 11 seguindo abordagem BDD com Cucumber e padrão POM (Page Object Model)
+##### Automação utilizando Cypress 11 seguindo abordagem BDD com Cucumber e padrão POM (Page Object Model) em resposta ao desafio técnico da Stefanini Group.
 
 ## Explicações sobre projeto e objetivos 
 - Instalação, execução de testes no browser e CLI, geração de reports automatizados e explicação sobre código e abordagens 
